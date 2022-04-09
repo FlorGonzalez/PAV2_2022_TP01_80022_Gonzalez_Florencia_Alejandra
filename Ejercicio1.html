@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 1</title>
+</head>
+<body>
+  <h1>Ejercicio 1</h1>
+  <ol>
+    <li>¿Cuántos Kilobytes se transfieren al navegador para visualizar la página de manera completa? Cuanto tiempo demora en cargar la página. Si se utiliza el caché del navegador, ¿demora lo mismo? 
+    <p> <strong>
+      <table>
+        <tr>
+          <th>Pregunta</th>
+          <th>Con cache</th>
+          <th>Sin cache</th>
+        </tr>
+        <tr>
+          <td>kB que se transfieren</td>
+          <td>1534,86KB.</td>
+          <td>110KB.</td>
+        </tr>
+        <tr>
+          <td>Tiempo que demora</td>
+          <td>3.26s de carga.</td>
+          <td>2.80s de carga.</td>
+        </tr>
+      </table>  
+      <br>
+      Tarda menos con cache.</strong></p>
+    </strong></li>
+    <li>¿La página posee errores o warnings?
+      <p><strong>Sí posee. Son los que podemos encontrar de color rojo y los que tienen el código de error.</strong></p> </li>
+    <li>¿Cuál es el archivo que demora más tiempo en descargarse de la página?
+      <p><strong>El archivo que tarda más en descargarse es el documento <i>www.frc.utn.edu.ar</i></strong></p></li>
+    <li>¿Todos los archivos provienen del mismo servidor?
+      <p><strong>No. Microsoft-IIS/6.0 es el que se repite más pero podemos ver que hay más. Lo podemos ver en el encabezado de la respuesta.</strong></p></li>
+    <li>¿Cuántas imágenes posee?, ¿cuánto tiempo demora en descargarlas? ¿Cual es la imagen de mayor tamaño en kilobytes que se descarga del sitio?
+      <p><strong>
+      <ul>
+        <li>70 imágenes.</li>
+        <li>Demora 44ms en descargarlas.</li>
+        <li>La imagen de mayor tamaño es BannerJISO de 72kB sin caché.</li>
+      </ul>     
+      </strong></p></li>
+    <li>¿Cuántos archivos de hojas de estilo utiliza?
+      <p><strong>4 
+        <ul>
+        <li>ssubnav.css</li>
+        <li>ppal.css</li>
+        <li>www-player.css</li>
+        <li>www-player.css</li>
+        </ul></strong></p></li>
+    <li>En qué versión de html indica el documento que está realizada la página.
+      <p><strong>En la línea !DOCTYPE sale que es xhtml 1.0.</strong></p></li>
+    <li>¿Los archivos javascript y/o css están minificados
+      <p><strong>Algunos se encuentran comprimidos en una sola línea (o sea, si) y otros no.</strong></p></li>
+    <li>¿Qué tiempo demoraría la página en descargar en un equipo con señal de datos de una red Regular 3G?<p><strong>
+    <br>3G Lenta -> 2.57s con caché habilitado. 2.68s sin caché habilitado.
+    <br> 3G Rápida -> 2.77s con el caché habilitado. 3.0s sin caché habilitado.
+    </strong></p></li>
+    <li>La página es compatible con el estándar html indicado en la cabecera. Analice la misma en <a href="https://validator.w3.org">https://validator.w3.org</a> <p><strong>Hay 27 errores y 1 warning al checkear el documento con XHTML 1.0 </strong></p> </li>
+    <li>Analice las recomendaciones para mejorar la velocidad de carga de la página en <a href="https://developers.google.com/speed/pagespeed"></a>https://developers.google.com/speed/pagespeed/ 
+      <p><strong>Tiene 50% de rendimiento en celular y un 73% en escritorio.</strong></p></li>
+    <li>Realice el mismo análisis con el sitio <a href="www.cba.gob.ar"></a>www.cba.gob.ar
+      <p><strong> 
+        No funciona el link proporcionado, se hizo el analisis de la pagina del CIDI ( <a href="https://cidi.cba.gov.ar/portal-publico/">https://cidi.cba.gov.ar/portal-publico/</a> )
+        <ul>
+        <li>Con caché carga en 2.2ms</li>
+        <li>Se transfieren 0.549</li>
+        <li>Sin caché: 2.08ms</li>
+        <li>Tiene 401 errores</li>
+        <li>El archivo que más pesa es pase-sanitario.png.</li>
+        <li>No son todos del mismo servidor todos los archivos.</li>
+        <li>Hay 40 imagenes.</li>
+        <li>Es html5</li>
+        <li>Hay un archivo css que es el styles.css.</li>
+        <li>No está minificado.</li>
+        <li>Tarda 24.31s para cargar con RED 3G Rápida sin caché y 1.48s con caché.</li>
+        <li>3G Lenta 58.99 s para cargar. </li>
+        </ul></strong></p></li>
+  </ol>
+  <hr>
+  <p>Si desea volver al inicio oprima <a href="/index.html">AQUI</a></p>
+</body>
+</html>
